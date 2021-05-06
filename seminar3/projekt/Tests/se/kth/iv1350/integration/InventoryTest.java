@@ -4,7 +4,6 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import se.kth.iv1350.model.Sale;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 class InventoryTest {
@@ -13,7 +12,6 @@ class InventoryTest {
     private ItemDTO testItem;
     private Sale testSale;
 
-
     @BeforeEach
     void setUp() {
         inventory = new Inventory();
@@ -21,12 +19,7 @@ class InventoryTest {
         testItem = new ItemDTO("gurka", 8877, 15, 3);
         testSale.itemsInSale.add(testItem);
     }
-
-    @AfterEach
-    void tearDown() {
-
-    }
-
+    
     @Test
     void testRetrieveInfo() {
         int validIdentifier = 8877;

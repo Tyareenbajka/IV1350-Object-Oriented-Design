@@ -5,8 +5,7 @@ import se.kth.iv1350.model.*;
 import se.kth.iv1350.util.Amount;
 
 /**
- * The application's only controller class. All calls to
- * the model and integration pass through here.
+ * The application's only controller class. All calls to the model and integration pass through here.
  */
 public class Controller {
     private Sale sale;

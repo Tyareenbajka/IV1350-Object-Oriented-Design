@@ -2,7 +2,6 @@ package se.kth.iv1350.integration;
 
 import se.kth.iv1350.model.Sale;
 import se.kth.iv1350.util.Font;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -68,8 +67,6 @@ public class Inventory {
      * @return data over the inventory
      */
     public String printListOfInventory(){
-        //kommentera detta i rapport att bara används för läaren
-
         StringBuilder itemToString = new StringBuilder();
         for(ItemData itemInfo : itemInventory){
             itemToString.append("Item: " + itemInfo.item + Font.COMMA);

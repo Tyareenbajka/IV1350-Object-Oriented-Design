@@ -16,7 +16,6 @@ public class Receipt {
     private final String storeName = "POS Livs ItemShop" + Font.NEW_LINE;
     private final String storeAdress = "Sweaty Sands 45, 999 99 Polar Peak" + Font.NEW_LINE;
 
-
     /**
      * Adds the sale to the receipt
      *

@@ -23,7 +23,6 @@ public class Accounting {
      * @return the value of accounting
      */
     public double getAccounting(){
-
         return account;
     }
 }

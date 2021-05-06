@@ -6,8 +6,7 @@ import se.kth.iv1350.util.Amount;
 import se.kth.iv1350.util.Font;
 
 /**
- * This program has no view, instead this class is
- * a placeholder for the entire view.
+ * This program has no view, instead this class is a placeholder for the entire view.
  */
 public class View {
     private Controller contr;
@@ -17,7 +16,6 @@ public class View {
 
 
     public View(Controller contr) {
-
         this.contr = contr;
     }
 
