@@ -19,7 +19,7 @@ class InventoryTest {
         testItem = new ItemDTO("gurka", 8877, 15, 3);
         testSale.itemsInSale.add(testItem);
     }
-    
+
     @Test
     void testRetrieveInfo() {
         int validIdentifier = 8877;

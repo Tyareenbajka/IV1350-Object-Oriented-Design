@@ -73,5 +73,4 @@ class SaleLogTest {
         int quantity = Integer.parseInt(inventoryList.substring(23, 25));
         return quantity;
     }
-
 }
